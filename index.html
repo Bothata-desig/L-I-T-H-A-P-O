@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L I T H A P O | Premium Woolen Attire</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Montserrat:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --color-linen: #FAF9F6;
+            --color-umber: #2A211B;
+            --color-sand: #D9C5B2;
+            --color-terracotta: #8C5E45;
+            --color-moss: #5E6146;
+        }
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: var(--color-linen);
+            color: var(--color-umber);
+            scroll-behavior: smooth;
+        }
+        h1, h2, h3, h4, .serif {
+            font-family: 'Cormorant Garamond', serif;
+        }
+        .text-umber { color: var(--color-umber); }
+        .bg-linen { background-color: var(--color-linen); }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in { animation: fadeIn 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+    </style>
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@^19.2.3",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+        "react/": "https://esm.sh/react@^19.2.3/",
+        "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
+      }
+    }
+    </script>
+</head>
+<body class="bg-[#FAF9F6] text-[#2A211B] overflow-x-hidden">
+    <div id="root"></div>
+</body>
+</html>
